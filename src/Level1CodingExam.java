@@ -64,13 +64,13 @@ public class Level1CodingExam implements ActionListener{
 		if (check == buttons[0]) {
 			speak("yellow");
 		}
-		if (check == buttons[1]) {
+		else if (check == buttons[1]) {
 			speak("red");
 		}
-		if (check == buttons[2]) {
+		else if (check == buttons[2]) {
 			speak("blue");
 		}
-		if (check == buttons[3]) {
+		else if (check == buttons[3]) {
 			speak("green");
 		}
 	}
